@@ -120,7 +120,6 @@ function kairo_category_transient_flusher() {
 }
 add_action( 'edit_category', 'kairo_category_transient_flusher' );
 add_action( 'save_post',     'kairo_category_transient_flusher' );
-<<<<<<< HEAD
 
 // Social media icons as menu
 
@@ -142,5 +141,3 @@ function kairo_social_menu() {
 		);
 	}
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96

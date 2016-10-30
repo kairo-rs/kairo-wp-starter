@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 @charset "UTF-8";
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 /*!
 Theme Name: kairo
 Theme URI: http://underscores.me/
@@ -260,7 +257,6 @@ th {
 }
 
 /*--------------------------------------------------------------
-<<<<<<< HEAD
 # fontawesome
 --------------------------------------------------------------*/
 /*!
@@ -9616,8 +9612,6 @@ button.close {
   }
 }
 /*--------------------------------------------------------------
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 # Typography
 --------------------------------------------------------------*/
 body,
@@ -9626,11 +9620,7 @@ input,
 select,
 textarea {
   color: #404040;
-<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
-=======
-  font-family: sans-serif;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -9639,13 +9629,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
-<<<<<<< HEAD
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   transition: all .2s;
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 
 p {
   margin-bottom: 1.5em;
@@ -9710,11 +9697,7 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   background: #fcfcfc;
-=======
-  background: #fff;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -9780,22 +9763,12 @@ input[type="submit"] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
-<<<<<<< HEAD
   background: #010101;
   color: rgba(0, 0, 0, 0.8);
   font-size: 15.2px;
   font-size: 0.95rem;
   line-height: 1;
   padding: 1em 2em;
-=======
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 button:hover,
@@ -9803,10 +9776,6 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
-<<<<<<< HEAD
-=======
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 button:active, button:focus,
 input[type="button"]:active,
@@ -9816,10 +9785,6 @@ input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
-<<<<<<< HEAD
-=======
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 
 input[type="text"],
@@ -9841,11 +9806,7 @@ textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
-<<<<<<< HEAD
   padding: .75em;
-=======
-  padding: 3px;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -9881,7 +9842,6 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-<<<<<<< HEAD
   color: #010101;
 }
 a:visited {
@@ -9889,15 +9849,6 @@ a:visited {
 }
 a:hover, a:focus, a:active {
   color: #000000;
-=======
-  color: royalblue;
-}
-a:visited {
-  color: purple;
-}
-a:hover, a:focus, a:active {
-  color: midnightblue;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 a:focus {
   outline: thin dotted;
@@ -9914,12 +9865,9 @@ a:hover, a:active {
   display: block;
   float: left;
   width: 100%;
-<<<<<<< HEAD
   text-transform: uppercase;
   background: #010101;
   position: relative;
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 .main-navigation ul {
   display: none;
@@ -9931,16 +9879,10 @@ a:hover, a:active {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
-<<<<<<< HEAD
   top: 3em;
   left: -999em;
   z-index: 99999;
   background: #333333;
-=======
-  top: 1.5em;
-  left: -999em;
-  z-index: 99999;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 .main-navigation ul ul ul {
   left: -999em;
@@ -9952,14 +9894,11 @@ a:hover, a:active {
 .main-navigation ul ul a {
   width: 200px;
 }
-<<<<<<< HEAD
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
   background: #222;
   color: #fcfcfc;
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
@@ -9968,7 +9907,6 @@ a:hover, a:active {
   float: left;
   position: relative;
 }
-<<<<<<< HEAD
 .main-navigation li:hover > a, .main-navigation li.focus > a {
   color: #fff;
   background: #333333;
@@ -9988,11 +9926,6 @@ a:hover, a:active {
 .main-navigation .current-menu-ancestor > a {
   background: #cccccc;
   color: #333333;
-=======
-.main-navigation a {
-  display: block;
-  text-decoration: none;
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 }
 
 /* Small menu. */
@@ -10001,7 +9934,6 @@ a:hover, a:active {
   display: block;
 }
 
-<<<<<<< HEAD
 .menu-toggle {
   height: 3.75em;
   padding: 0 1em;
@@ -10057,8 +9989,6 @@ a:hover, a:active {
     background: #333;
   }
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
@@ -10088,7 +10018,6 @@ a:hover, a:active {
   width: 50%;
 }
 
-<<<<<<< HEAD
 .menu-social ul {
   float: right;
   text-align: center;
@@ -10133,8 +10062,6 @@ a:hover, a:active {
     padding-right: .5em;
   }
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -10237,7 +10164,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-<<<<<<< HEAD
 .site-main {
   margin: 0 auto;
 }
@@ -10282,8 +10208,6 @@ a:hover, a:active {
     float: right;
   }
 }
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -10327,7 +10251,6 @@ a:hover, a:active {
   display: block;
 }
 
-<<<<<<< HEAD
 .header-image img {
   display: block;
   margin: 0 auto;
@@ -10446,8 +10369,6 @@ input[type="search"] {
   display: none;
 }
 
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/

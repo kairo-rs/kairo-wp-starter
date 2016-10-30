@@ -24,7 +24,6 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'kairo' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-<<<<<<< HEAD
 		<?php if ( get_header_image() && ('blank' == get_header_textcolor())) : ?>
 			<div class="header-image">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
@@ -39,9 +38,6 @@
 				<div class="site-branding">
 			<?php endif ?>
 			<div class="title-box">
-=======
-		<div class="site-branding">
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -55,16 +51,12 @@
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
 			endif; ?>
-<<<<<<< HEAD
 			</div>  <!-- end title box -->
-=======
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'kairo' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-<<<<<<< HEAD
 			<div class="search-toggle">
 					<i class="fa fa-search" aria-hidden="true"></i>
 					<a href="#search-container" class="screen-reader-text">
@@ -84,9 +76,3 @@
 	<div id="content" class="site-content">
 
 	
-=======
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
->>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
