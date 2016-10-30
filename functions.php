@@ -45,6 +45,7 @@ function kairo_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'kairo' ),
+		'social' => esc_html__( 'Social Menu', 'kairo' ),
 	) );
 
 	/*
@@ -60,10 +61,10 @@ function kairo_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'kairo_custom_background_args', array(
+	/*add_theme_support( 'custom-background', apply_filters( 'kairo_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
-	) ) );
+	) ) );*/
 }
 endif;
 add_action( 'after_setup_theme', 'kairo_setup' );
@@ -95,6 +96,16 @@ function kairo_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Widgets', 'kairo' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Add footer widgets here.', 'kairo' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'kairo_widgets_init' );
 
@@ -102,9 +113,16 @@ add_action( 'widgets_init', 'kairo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function kairo_scripts() {
+
+	wp_enqueue_style( 'kairo-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans' );
+
+
 	wp_enqueue_style( 'kairo-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'kairo-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'kairo-superfish', get_template_directory_uri() . '/js/superfish.min.js', array('jquery'), '20151215', true );
+	wp_enqueue_script( 'kairo-site', get_template_directory_uri() . '/js/site.js', array('kairo-superfish'), '20151215', true );
 
 	wp_enqueue_script( 'kairo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

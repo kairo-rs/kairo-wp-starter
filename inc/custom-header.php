@@ -23,9 +23,9 @@
 function kairo_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'kairo_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'default-text-color'     => '010101',
+		'width'                  => 1900,
+		'height'                 => 600,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'kairo_header_style',
 	) ) );
@@ -56,8 +56,7 @@ function kairo_header_style() {
 		// Has the text been hidden?
 		if ( ! display_header_text() ) :
 	?>
-		.site-title,
-		.site-description {
+		.site-branding {
 			position: absolute;
 			clip: rect(1px, 1px, 1px, 1px);
 		}
