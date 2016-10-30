@@ -14,9 +14,12 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+<<<<<<< HEAD
 		
 		<?php get_sidebar('footer'); ?>
 
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kairo' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'kairo' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>

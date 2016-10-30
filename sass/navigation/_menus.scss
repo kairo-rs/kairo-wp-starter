@@ -3,9 +3,12 @@
 	display: block;
 	float: left;
 	width: 100%;
+<<<<<<< HEAD
 	text-transform: uppercase;
 	background: $dark-menu-color;
 	position: relative;
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 
 	ul {
 		display: none;
@@ -13,16 +16,25 @@
 		margin: 0;
 		padding-left: 0;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
 			position: absolute;
+<<<<<<< HEAD
 			top: 3em;
 			left: -999em;
 			z-index: 99999;
 			background: $dark-submenu-color;
 
+=======
+			top: 1.5em;
+			left: -999em;
+			z-index: 99999;
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 
 			ul {
 				left: -999em;
@@ -38,19 +50,28 @@
 
 			a {
 				width: 200px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 			}
 
 			:hover > a,
 			.focus > a {
+<<<<<<< HEAD
 				
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 			}
 
 			a:hover,
 			a.focus {
+<<<<<<< HEAD
 
 			background: #222;
 			color:#fcfcfc;
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 			}
 		}
 
@@ -66,28 +87,37 @@
 
 		&:hover > a,
 		&.focus > a {
+<<<<<<< HEAD
 			color:#fff;
 			background: $dark-submenu-color;
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 		}
 	}
 
 	a {
 		display: block;
 		text-decoration: none;
+<<<<<<< HEAD
 		color: $light-menu-color;
 		padding:1em;
 		font-size:16px;
 		font-size:1rem;
 		line-height: 1.3em;
 
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 	}
 
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+<<<<<<< HEAD
 		background: $light-submenu-color;
 		color: $dark-submenu-color;
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 	}
 }
 
@@ -97,6 +127,7 @@
 	display: block;
 }
 
+<<<<<<< HEAD
 .menu-toggle {
 	height:3.75em;
 		padding:0 1em;
@@ -178,6 +209,8 @@
 }
 
 
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -207,6 +240,7 @@
 		width: 50%;
 	}
 }
+<<<<<<< HEAD
 
 
 // SOCIAL MENU
@@ -263,3 +297,5 @@
 		}
 	}
 }
+=======
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96

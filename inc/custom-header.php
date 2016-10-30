@@ -23,9 +23,15 @@
 function kairo_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'kairo_custom_header_args', array(
 		'default-image'          => '',
+<<<<<<< HEAD
 		'default-text-color'     => '010101',
 		'width'                  => 1900,
 		'height'                 => 600,
+=======
+		'default-text-color'     => '000000',
+		'width'                  => 1000,
+		'height'                 => 250,
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 		'flex-height'            => true,
 		'wp-head-callback'       => 'kairo_header_style',
 	) ) );
@@ -56,7 +62,12 @@ function kairo_header_style() {
 		// Has the text been hidden?
 		if ( ! display_header_text() ) :
 	?>
+<<<<<<< HEAD
 		.site-branding {
+=======
+		.site-title,
+		.site-description {
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 			position: absolute;
 			clip: rect(1px, 1px, 1px, 1px);
 		}

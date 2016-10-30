@@ -6,19 +6,35 @@ input[type="submit"] {
 	border-color: $color__border-button;
 	border-radius: 3px;
 	background: $color__background-button;
+<<<<<<< HEAD
 	//box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
 	color: rgba(0, 0, 0, .8);
 	@include font-size(0.95);
 	line-height: 1;
 	padding: 1em 2em;
+=======
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 
 	&:hover {
 		border-color: $color__border-button-hover;
+<<<<<<< HEAD
+=======
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 	}
 
 	&:active,
 	&:focus {
 		border-color: $color__border-button-focus;
+<<<<<<< HEAD
+=======
+		box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+>>>>>>> 0bea866274f44ba065a3344ea1605e5916f45d96
 	}
 }
