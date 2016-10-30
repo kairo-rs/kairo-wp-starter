@@ -122,7 +122,8 @@ function kairo_scripts() {
 	wp_enqueue_script( 'kairo-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'kairo-superfish', get_template_directory_uri() . '/js/superfish.min.js', array('jquery'), '20151215', true );
-	wp_enqueue_script( 'kairo-site', get_template_directory_uri() . '/js/site.js', array('kairo-superfish'), '20151215', true );
+	wp_enqueue_script( 'kairo-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('kairo-superfish'), '20151215', true );
+	wp_enqueue_script( 'kairo-site', get_template_directory_uri() . '/js/site.js', array('kairo-bootstrap'), '20151215', true );
 
 	wp_enqueue_script( 'kairo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
